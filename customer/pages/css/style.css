@@ -1,0 +1,29 @@
+
+:root {
+    --dark: #111111;
+    --black: #050505;
+    --gold: #d4a84f;
+    --cream: #f5f0e6;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--black);
+    color: var(--cream);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
